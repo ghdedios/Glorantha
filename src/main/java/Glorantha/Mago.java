@@ -42,6 +42,12 @@ public class Mago extends Personaje
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public void setEstamina(int estamina) {
+		// TODO Auto-generated method stub
+		
+	}
     
     
 }

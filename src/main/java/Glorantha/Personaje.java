@@ -15,5 +15,23 @@ public abstract class Personaje {
 	public abstract void revivir();
 	public abstract  void practicarAtaque();
 	
+	public int getEstamina() {
+		return estamina;
+	}
+	public abstract void setEstamina(int estamina);
+	
+	public int getInteligencia() {
+		return inteligencia;
+	}
+	public void setInteligencia(int inteligencia) {
+		this.inteligencia = inteligencia;
+	}
+	public int getReintentos() {
+		return reintentos;
+	}
+	public void setReintentos(int reintentos) {
+		this.reintentos = reintentos;
+	}
+	
 	
 }

@@ -38,4 +38,10 @@ public class Bruja extends Personaje {
 		
 	}
 
+	@Override
+	public void setEstamina(int estamina) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
