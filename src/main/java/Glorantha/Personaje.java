@@ -2,11 +2,11 @@ package Glorantha;
 
 public abstract class Personaje {
 
-	private CaracterísticasBasicas caracteristiacasBasicas;
-	private int estamina;
-	private int inteligencia;
-	private int vida;
-	private int reintentos;
+	protected CaracterísticasBasicas caracteristiacasBasicas;
+	protected int estamina;
+	protected int inteligencia;
+	protected int vida;
+	protected int reintentos;
 	
 	public abstract boolean esHabilidoso();
 	public abstract boolean esSiniestro();
